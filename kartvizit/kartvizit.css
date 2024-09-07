@@ -1,0 +1,89 @@
+/* Genel kart yapısı */
+body {
+    background-color: bisque;
+}.card {
+    width: 360px;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: blanchedalmond;
+    border-radius: 12px;
+    box-shadow: -5px 20px 12px rgba(249, 179, 99, 0.15);    text-align: center;
+    font-family: 'Arial', sans-serif;
+    border: 1px solid blanchedalmond;
+}
+
+/* Profil fotoğrafı için stil */
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #007bff; /* Profil fotoğrafının çevresinde renkli kenarlık */
+    margin-bottom: 15px;
+    object-fit: cover; /* Fotoğrafın bozulmadan uygun şekilde görünmesini sağlar */
+}
+
+/* Kart üzerindeki başlık */
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333333;
+    font-weight: 700;
+}
+
+/* İş tanımı başlığı */
+.title {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+/* İletişim bilgileri */
+p {
+    font-size: 15px;
+    color: #666666;
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* Sosyal medya ikonları için stil */
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* İkonlar arasında boşluk bırakır */
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333333;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Sosyal medya ikonlarının hover durumu */
+.social-icons a:hover {
+    color: #007bff; /* Renkli bir geçiş efekti */
+    transform: scale(1.1); /* Hover durumunda büyütür */
+}
+
+/* Sosyal medya butonlarının renkleri */
+.btn-outline-primary {
+    color: #007bff;
+}
+
+.btn-outline-dark {
+    color: #333333;
+}
+
+.btn-outline-info {
+    color: #1da1f2;
+}
+
+/* QR kod için stil */
+#qr-code {
+    margin-top: 20px;
+    padding: 10px;
+    background:blanchedalmond;
+    border-radius: 8px;
+    border: 1px solid blanchedalmond;
+}

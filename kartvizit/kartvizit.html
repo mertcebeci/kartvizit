@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" a href="kartvizit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+    <title>QR Kodu</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+
+</head>
+<body>
+    <div class="card">
+        <div class="profile-image">
+            <img src="mert.jpg" alt="Profil Fotoğrafı">
+        </div>
+        <h1>Mert Cebeci</h1>
+        <p class="title">Web Developer & Siber Güvenlik Uzmanı & Veritabanı Programlama</p>
+        <p>mertcebeci83@gmail.com</p>
+        
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/mertcbci/" target="_blank" class="btn btn-outline-primary">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://github.com/mertcebeci" target="_blank" class="btn btn-outline-dark">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="btn btn-outline-info">
+                <i class="bi bi-twitter"></i>
+            </a>
+        </div>
+<div id="qr-code"></div>
+
+<script>
+    $('#qr-code').qrcode({
+        text: "5064433806 & mertcebeci83@gmail.com ",  // Buraya kendi URL'inizi ekleyin
+        width: 150,  // Genişlik
+        height: 150  // Yükseklik
+    });
+</script>
+
+</body>
+</html>
